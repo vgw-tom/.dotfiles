@@ -285,4 +285,10 @@ require("lazy").setup({
             require("auto-save").setup()
         end
     },
+    {
+        "ThePrimeagen/harpoon",
+        dependencies = {
+            "nvim-lua/plenary.nvim",
+        }
+    }
 }, {})

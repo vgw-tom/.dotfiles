@@ -20,3 +20,6 @@ src/.config/tmux/plugins
 src/.config/nvim/lazy-lock.json
 roles
 .DS_Store
+src/default/dotfiles/config/fish/fish_variables
+src/default/dotfiles/config/fish/fish_variables
+src/default/dotfiles/config/lazygit/state.yml
