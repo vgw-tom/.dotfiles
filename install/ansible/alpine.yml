@@ -1,0 +1,13 @@
+---
+- name: Configure alpine host.
+  hosts: all
+
+  tasks:
+    - import_tasks: tasks/apk.yml
+      tags: ['apk']
+    - import_tasks: tasks/dotfiles.yml
+      tags: ['dotfiles']
+    - import_tasks: tasks/nvim.yml
+      tags: ['nvim']
+    - import_tasks: tasks/ssh.yml
+      tags: ['ssh']
